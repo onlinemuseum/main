@@ -1,0 +1,114 @@
+header{
+    text-align:center;
+}
+
+.PageTitle2{
+    font-size:32px;
+    margin:50px 0 15px 0;
+    letter-spacing:22px;
+    opacity:.85;
+    color:black;
+    font-weight:bold;
+}
+.SubHeader{
+    font-weight:bold;
+    text-align: center;
+    font-size:19px;
+    font-style:oblique;
+    color:rgb(84, 51, 84);
+    text-shadow:1px 1px black;
+}
+
+#PageSub{
+    display:block;
+    margin:0;
+    font-size:14px;
+
+}
+
+.Content {
+    width:54%;
+    margin:0 auto;
+    display:block;
+    font-size:12.8px;
+}
+
+/*Span*/
+.What{
+    color:red;
+    font-weight:bold;
+}
+.Content i{
+    color:rgb(173, 14, 14);
+}
+
+.Content img{
+    width:100%;
+    display:block;
+    margin:15px auto;
+    padding:7px; 
+    background-image:-webkit-radial-gradient(center, white,  rgb(58, 2, 58));
+}
+
+
+.SubPic{
+    text-align:center;
+    display:block;
+    margin:0; 
+    color:purple;
+    font-size:13px;
+}
+#SubPicSpan{
+    font-size:11px;
+}
+.PicDes{
+    font-size:11px;
+    text-align:center;
+    font-style:oblique;
+}
+#PicDesSpan{
+    font-size:10px;
+    color:purple;
+    font-style:normal;
+    display:block;
+    margin-bottom:12px;
+}
+.InBetween{
+    text-align:center;
+    padding:10px 0; 
+    border-top:2px solid gold;
+    border-bottom:2px solid gold;
+    margin:30px 0;
+}
+
+.Container{
+    position: relative;
+}
+.Sider{
+    position:absolute;
+    text-shadow:.3px .3px  red;
+}
+.S1{
+    right:-125px; 
+    transform:rotate(12deg);
+}
+.S2{
+    left:-118px; 
+    transform:rotate(-12deg);
+}
+.S3{
+    top:19px;
+    right:-135px;   
+    transform:rotate(9deg);
+    text-align:center;
+}
+.S4{
+    left:-135px;   
+    transform:rotate(-9deg);
+    text-align:center;
+}
+.S5{
+    right:-155px;
+    transform:rotate(7.2deg)
+}
+
