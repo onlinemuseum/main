@@ -125,6 +125,7 @@ header span {     color:red;     opacity:.85; }
 
 
     @media only screen and (min-width:1090px){
-
+            .Content{
+                width:37%;
     
     }
