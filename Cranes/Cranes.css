@@ -1,0 +1,167 @@
+header{
+    text-align:center;
+}
+
+header .PageTitle2{
+    font-size:30px;
+    letter-spacing:22px;
+    opacity:.85;
+    color:black;
+    font-weight:bold;
+}
+
+.PageSub2{
+    font-style:oblique;
+    font-size:13px;
+    display:block;
+    margin:-15px;
+}
+
+.N1{
+    border-top:1.5px solid black;
+    padding-top:20px;
+    margin-top:25px;
+}
+
+.Quote{
+    font-style:oblique;
+    color:rgb(180, 57, 119);
+}
+
+.Cover img{
+    display:block;
+    margin:25px auto;
+    width:190px;
+    padding:10px;
+    border:2px solid black;
+}
+
+.MainArticleLink{
+    color:red;
+    text-decoration:none;
+}
+
+.InBetween{
+    font-size:19px;
+    color:darkblue;
+    text-align:center;
+    font-style:oblique;
+}
+
+.Content a:hover{
+    font-style:oblique;
+}
+
+.RedSpan{
+    color:red;
+}
+
+/*PICGRID*/
+.PicGrid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    justify-items: center;
+    padding:30px 0 15px 0;
+    margin-bottom:15px;
+    border-top:2px solid grey;
+    border-bottom:2.5px solid rgb(130, 89, 89);
+    grid-row-gap:35px;
+    grid-column-gap:15px;
+}
+.PicGrid img{padding:5px;     border:2px solid rgb(96, 6, 6);   }
+.Crane{    width:78%; }
+.Bird2{    width:80%;    margin:45px 0 0 5px; }
+.WavePic{    width:82%; }
+
+.PicSub{
+    text-align:center;
+    font-size:15px;
+}
+
+.SubPic2{
+    margin-left:15px;
+    font-style:oblique;
+}
+
+hr{
+    height:2px;
+    width:80%;
+    margin:15px auto;
+    background-color:rgb(114, 19, 19);
+    color:black;
+}
+
+.CraneWomanLink{
+    text-align:center;
+}
+
+.CraneWomanLink a{
+    color:darkblue;
+    text-decoration:none;
+}
+
+.Crane2{
+    width:55%;  
+    display:block;
+    margin:0 auto;
+}
+
+.Crane3{
+ width:55%;   
+ display:block;
+ padding:25px;
+ border:4.5px solid black;
+ margin:20px auto;
+}
+
+.SeeAlso{
+    text-align:center;
+    font-size:14px;
+}
+
+.SeeAlso a{
+    text-decoration:none;
+    color:red;
+}
+
+.PicContainer{
+    margin:0 auto;
+    width:80%;
+}
+
+.PicGrid2{
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items: center;
+    padding:30px 0 15px 0;
+    margin-bottom:15px;
+    grid-row-gap:35px;
+    grid-column-gap:15px;
+}
+
+.PicGrid3{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    justify-items: center;
+}
+
+.PicContainer img{
+    padding:3px;
+    border:1px solid black;
+}
+
+.PicGrid2 img{
+    width:90%;
+}
+
+.PicGrid3 img{
+    width:75%;
+}
+
+#CraneAgain{
+    width:61%;
+}
+#Crane2a{
+    padding:0;
+}
