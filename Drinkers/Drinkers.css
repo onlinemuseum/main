@@ -1,0 +1,123 @@
+header{
+    text-align:center;
+}
+
+.PageTitle2{
+    font-size:30px;
+    letter-spacing:22px;
+    opacity:.85;
+    color:black;
+    font-weight:bold;
+}
+
+.CoverGrid img{
+    margin:0 auto;
+    display:block;
+    width:55%;
+    border:1.4px solid rgb(133, 2, 2);
+  
+}
+
+.CoverSub{
+    text-align:center;
+    padding-bottom:25px;
+    width:70%;
+    margin:20px auto 38px auto;
+    border-bottom:1px solid grey;
+}
+
+.Content {
+    width:54%;
+    margin:0 auto;
+    display:block;
+    font-size:12.8px;
+}
+
+/*Span*/
+.What{
+    color:red;
+    font-weight:bold;
+}
+
+.Pics img{
+    width:100%;
+    padding:5px; 
+    border:3px solid rgb(98, 11, 11);
+}
+
+.Pics{
+    position:relative;
+    text-align:center;
+}
+
+#SideText1{
+    position:absolute;
+    right:-92px;
+    top:5px;
+    font-size:15px;
+    font-weight:bold;
+    transform:rotate(8deg);
+    text-shadow:.5px .5px red;
+}
+
+.Sub{
+    font-size:11px;
+    font-style:oblique;
+}
+
+.InBetween{
+    margin:25px 0;
+    padding:25px 0;
+    border-top:2px solid rgb(117, 102, 19);
+    border-bottom: 2px solid rgb(138, 119, 10);
+    font-weight:bold;
+    color:rgb(8, 8, 105);
+}
+
+#GoghSpan{
+    font-weight:normal;
+    font-size:11px;
+    color:black;
+}
+
+#Maignan{
+    margin-top:5px;
+    width:55%;
+}
+
+#Kikodze{
+    width:70%;
+}
+
+
+
+.Footer1{
+    position:fixed;
+    text-align:center;
+    width:100%;
+    left:0;
+    letter-spacing:35px;
+    bottom:-45px;
+    font-size:45px; 
+    opacity:.55;
+    z-index:1;
+}
+
+.Footer1 span{
+    color:white;
+}
+
+@media only screen and (min-width:790px){
+    .CoverGrid img{
+        width:25%;
+    }
+
+  
+    .Content{
+        width:30%;
+    }
+
+    .Content img{
+        width:85%;
+    }
+}
