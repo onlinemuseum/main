@@ -1,0 +1,145 @@
+/*Headers*/
+header .PageTitle2{
+    text-align:center;
+    font-size:30px;
+    letter-spacing:22px;
+    opacity:.85;
+    color:black;
+    font-weight:bold;
+}
+
+.Content a:hover{
+    font-style:oblique
+}
+
+.FeaturePic{
+    width:100%;
+    display:block;
+    padding:5px;
+    border:3px solid rgb(128, 13, 13);
+    margin:30px auto;
+}
+.FeaturePicDiv{
+    position:relative;
+}
+#PicSider{
+    position:absolute;
+    font-size:130%;
+    color:rgb(119, 5, 5);
+    text-shadow:.5px .5px brown;
+    top:75px;
+    right:-185px;
+    transform:rotate(15deg);
+}
+/*Pics*/
+.PicGrid{
+    border-bottom:2.8px solid rgb(112, 11, 11);
+    border-radius:35px;
+    width:75%;
+    margin:25px auto 35px auto;
+    padding:35px 0 45px 8%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-image:-webkit-radial-gradient(center, rgb(87, 13, 13), white)
+}
+.PicGrid img{
+    width:85%;
+    display:block;
+    margin:auto 0;
+    border-radius:8px;
+    border:2px solid rgb(92, 31, 31);
+}
+
+
+.References{
+    text-align:center;
+}
+.References a{
+    font-style:oblique;
+    font-size:17.5px;
+}
+.References a:hover{
+    text-decoration:underline;
+}
+#SubPic{
+    text-align:center;
+    color:orange;
+    font-style:oblique;
+    font-size:22px;
+}
+#SubSubPic{
+    text-align:center;
+    color:rgb(110, 76, 13);
+    text-shadow:.2px .2px orange;
+    font-style:oblique;
+    font-size:15px;
+}
+}
+
+.PicGrid .GuitarPic{
+    width:70%;
+}
+
+h3{
+    text-align:center;
+}
+.SubHead2{
+    text-align:center;
+    font-weight:bold;
+    font-size:15.5px;
+}
+
+.Content {
+    width:54%;
+    margin:0 auto;
+    display:block;
+    font-size:12.8px;
+}
+
+.Content a{
+    color:rgb(192, 13, 13);
+    text-decoration: none;
+}
+
+#PacoPic{
+    width:75%;
+    padding:5px;
+    border:3px solid rgb(98, 14, 14);
+    margin:5px auto 19px auto;
+    display:block;
+}
+
+
+@media only screen and (max-width:600px){
+    .TopGrid img{
+        width:100%:
+    }
+
+    .NavBox{padding:0;    }
+
+    .TopHeader{
+        margin:0 25px;
+    }
+
+    .BGrid{
+        margin:0;
+    }
+      
+}
+
+@media only screen and (min-width:890px){
+    .Content{
+        width:34%;
+        margin:0 auto;
+        display:block;
+        font-size:12.8px;
+    }
+
+    .Content img{
+        width:65%;
+    }
+
+    .PicGrid{
+        width:50%;
+    }
+}
