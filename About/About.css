@@ -1,0 +1,78 @@
+.EntirePage{
+    background-image:-webkit-linear-gradient(bottom, red, white);
+    margin:0;
+}
+
+header .PageTitle2{
+    margin:50px auto 35px auto;
+    text-align:center;
+    font-size:27px;
+    letter-spacing:22px;
+    color:black;
+    font-weight:bold;
+}
+
+header span {     color:red;     opacity:.85; }
+
+
+.Links{
+
+    display:block;
+    margin:33px auto 0 auto;
+    width:50%;
+    text-align:center;
+    line-height:32px;
+}
+
+.Links span{
+    color:rgb(126, 0, 0);
+    font-size:20px;
+}
+
+
+#Quote{
+    color:rgb(17, 17, 134);
+    font-style:oblique;
+    font-size:18px;
+    font-weight:bold;
+    border-top:2.7px solid orange;
+    border-bottom:2.7px solid rgb(141, 43, 43);
+    padding:5px 0;
+    margin:28px auto;
+    width:50%;
+}
+
+h2{
+    margin-top:19px;
+    font-size:20px;
+    letter-spacing:8px;
+}
+
+.Contribute{
+    font-size:13.5px;
+    border-top:2px solid rgb(141, 43, 43);
+    padding:25px 0;
+    margin:45px 0;
+}
+#RedSpan{
+    color:red;
+    opacity:.85;
+}
+
+#Email{
+    border-top:1.5px solid orange;
+    border-bottom:1.5px solid orange;
+    margin:12px auto;
+    padding:3px;
+    font-size:18px;
+    width:350px;
+}
+
+#Email a{
+    text-decoration:none;
+    font-style:oblique;
+}
+
+#Email a:hover{
+    font-style:normal;
+}
