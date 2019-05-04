@@ -1,0 +1,45 @@
+h1{
+    margin-top:30px;
+    font-size:25px; 
+    text-align:center;
+}
+
+
+.Links{
+
+    display:block;
+    margin:33px auto 0 auto;
+    width:50%;
+    text-align:center;
+    line-height:32px;
+}
+
+.Links a{
+    text-decoration:none;
+}
+
+.Links a:hover{
+    font-style:oblique;
+}
+
+
+
+section-1 .CranePic{
+    width:20%;
+    position:absolute;
+    right:5%;
+    border:3px solid black;
+    padding:5px;
+    transform:rotate(5deg)
+}
+
+section-1 .MusePic{
+    width:18%;
+    position:absolute;
+    top:155px;
+    left:10%;
+    transform:rotate(-7deg);
+    border:3px solid rgb(10, 10, 131);
+    padding:5px;
+
+}
