@@ -81,7 +81,7 @@ header span {     color:red;     opacity:.85; }
 .SlidingText{
     font-size:15px;
     margin:58px 2px 0 auto;
-    width:25%;
+    width:70%;
     border-right:1px solid red;
 }
 
@@ -217,7 +217,16 @@ make responsivie so that title stays and topgrid too..
          font-size:18px; z-index:-9; letter-spacing:5px; z-index:-1099;
         color:red;text-decoration:none; white-space: nowrap;}
 
-        
+ @media only screen and (max-width:600px){
+     .Footer{
+      font-size:2.2em;
+     }
+     
+     .PageTitle{
+         display:none;
+     }
+    }
+ 
 .SlidingText marquee{
     margin-top:0px;
     opacity:.75;
