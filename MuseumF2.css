@@ -43,7 +43,7 @@ header .PageTitle2{
 header span {     color:red;     opacity:.85; }
 
 .TopHeader{    position:relative;  margin:0  0 35px 25px;   font-style:oblique; }
-.TopHeader>div{    font-size:15px;    line-height:0;    letter-spacing:2px; }
+.TopHeader>div{    font-size:15px;     letter-spacing:2px; }
 
 .EntirePage{    margin:0 20px 0 70px; }
 
@@ -224,9 +224,9 @@ make responsivie so that title stays and topgrid too..
 }
 
 
- @media only screen and (max-width:600px){
+ @media only screen and (max-width:350px){
      .Footer{
-      font-size:2.2em;
+      font-size:25px;
      }
      
      .PageTitle{
