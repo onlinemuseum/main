@@ -47,7 +47,7 @@ header span {     color:red;     opacity:.85; }
 
 .EntirePage{    margin:0 20px 0 70px; }
 
-.TopGrid{    width:85%;    display:grid;    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    grid-gap:4px;
+.TopGrid{    width:85%;    display:grid;    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    grid-gap:20px;
         justify-items: center;  overflow:visible; }
 .TopBox {   border-radius:5px; box-sizing:border-box;    border:1px solid rgb(164, 163, 163);    margin:0; }
 .TopBox img{object-fit: cover; border-radius:5px;  }
