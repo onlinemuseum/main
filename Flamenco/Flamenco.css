@@ -38,6 +38,7 @@ header .PageTitle2{
     width:65%;
     margin:25px auto 35px auto;
     display:grid;
+    padding:15px 0 45px 10px;
     grid-template-columns:1fr 1fr 1fr;
     background-image:-webkit-radial-gradient(center, rgb(87, 13, 13), white)
 }
