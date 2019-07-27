@@ -36,9 +36,9 @@ header .PageTitle2{
     border-bottom:2.8px solid rgb(112, 11, 11);
     border-radius:35px;
     width:65%;
-    margin:25px auto 10px auto;
+    margin:25px auto 15px auto;
     display:grid;
-    padding:15px 0 45px 10px;
+    padding:15px 0 15px 10px;
     grid-template-columns:1fr 1fr 1fr;
     background-image:-webkit-radial-gradient(center, rgb(87, 13, 13), white)
 }
