@@ -82,6 +82,19 @@ header .PageTitle2{
     color:white;
 }
 
+
+.CoverPicIeyasu{
+    margin:0 auto; 
+    display:block;
+    width:40%;
+    padding:5px; 
+    border:5px solid rgb(110, 9, 9);
+
+}
+
+.OtherColor2{color:rgb(48, 48, 133); font-size:15px;}
+
+
 /*CURSIVE TEXT*/
 .Content i{
     color:rgb(156, 17, 17);
