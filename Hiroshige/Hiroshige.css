@@ -150,8 +150,6 @@ summary{
 }
 
 
-
-
 .PicGrid{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -191,8 +189,18 @@ summary{
         font-size:12.8px;
     }
     
-    img{
+    .CoverPicIeyasu{
         width:17%;
     }
+    
+    .CoverPic{
+        width:29%;
+    }
+    
+    .PicGrid img{
+    width:50%;
+    max-height:none;
+    }
+    
 
 }
