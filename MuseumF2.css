@@ -41,6 +41,8 @@ header .PageTitle2{
     font-weight:bold;
 }
 
+.TextGridB{color:rgb(170, 233, 43); text-shadow:1px 1px black}
+
 header span {     color:red;     opacity:.85; }
 
 .TopHeader{    position:relative;  margin:0  0 35px 25px;   font-style:oblique; }
