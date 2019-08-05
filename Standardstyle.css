@@ -129,3 +129,11 @@ header span {     color:red;     opacity:.85; }
                 width:37%;
     
     }
+        
+        
+    @media only screen and (max-width:880px){
+            .Sider{
+                display:none;
+        }
+    
+    }
