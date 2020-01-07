@@ -1,0 +1,201 @@
+header{
+    text-align:center;
+}
+
+.PageTitle2{
+    font-size:32px;
+    margin:50px 0 15px 0;
+    letter-spacing:22px;
+    opacity:.85;
+    color:black;
+    font-weight:bold;
+}
+.SubHeader{
+    font-weight:bold;
+    text-align: center;
+    font-size:27px;
+    font-style:oblique;
+    color: rgb(165, 1, 28);
+    text-shadow:1px 1px rgb(130, 10, 30);
+    letter-spacing:4px;
+
+}
+
+.SubHeaderB{
+    text-align: center;
+    font-style:oblique;
+    color: rgb(147, 0, 24);
+    text-shadow:1px 1px rgb(130, 10, 30);
+    font-size:24px;
+    letter-spacing:3.5px;
+    margin:20px 0 -2px 0;
+    display:block;
+
+
+}
+
+#Quote{
+    background-image:-webkit-linear-gradient(top, white, rgba(251, 58, 91, 0.85), white);
+    border-left:2px solid rgb(236, 89, 114);
+    border-right:2px solid rgb(211, 125, 139);
+    border-radius:15px;
+    width:87%;
+    display:block;
+    margin:28px auto; 
+    padding:20px 0; 
+    text-align:center; 
+    font-style:oblique;
+    color: rgb(255, 255, 255); 
+    text-shadow:2px 2px rgb(245, 235, 99));
+    font-size:35px;
+}
+
+header .AltSubTitle{
+    width:50%;
+    display:block;
+    letter-spacing:5px;
+    color:rgb(120, 28, 28);
+    margin:40px auto 40px auto;
+}
+
+#PageSub{
+    display:block;
+    margin:0;
+    font-size:17px;
+
+}
+
+.Content {
+    width:54%;
+    margin:0 auto;
+    display:block;
+    font-size:12.8px;
+}
+
+h2{text-align:center; }
+
+/*Span*/
+.What{
+    color:red;
+    font-weight:bold;
+}
+.Content i{
+    color:rgb(173, 14, 14);
+}
+
+.PageTitle3{
+    font-size:44px; 
+    font-weight:bold;
+    margin:40px 0 30px 0 ;
+    letter-spacing:20px;
+}
+
+.Joker{
+    width:100%;
+    display:block;
+    margin:15px auto;
+    padding:7px; 
+    background-image:-webkit-radial-gradient(center, white,  rgb(58, 2, 58));
+}
+
+
+
+.MovieStill{
+    display:block;
+    margin:38px auto;
+    width:100%;
+    border-top: 1px solid rgb(68, 5, 68); 
+}
+
+
+.Container{
+    position: relative;
+    display:block;
+    margin:0px 0 0 0; 
+}
+
+.Container p{
+    font-size:17px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.SubPic{
+    text-align:center;
+    display:block;
+    margin:0; 
+    color:purple;
+    font-size:13px;
+}
+#SubPicSpan{
+    font-size:11px;
+}
+
+#PicDescription{
+    text-align:center; 
+    font-style:oblique;
+    font-weight:bold;
+    color:rgb(189, 37, 37);
+    text-shadow:.4px .4px black;
+    font-size:24px;
+}
+
+#PicDescription span{
+    font-weight:normal;
+    color:rgb(248, 62, 93); 
+}
+
+
+.MovieStill2{
+    width:80%;
+    display:block;
+    margin: 40px auto 10px auto;
+}
+
+.PicDes{
+    font-size:11px;
+    text-align:center;
+    font-style:oblique;
+}
+#PicDesSpan{
+    font-size:10px;
+    color:purple;
+    font-style:normal;
+    display:block;
+    margin-bottom:12px;
+}
+.InBetween{
+    text-align:center;
+    padding:10px 0; 
+    border-top:2px solid gold;
+    border-bottom:2px solid gold;
+    margin:30px 0;
+}
+
+.Sider{
+    position:absolute;
+    text-shadow:.3px .3px  red;
+}
+.S1{
+    right:-125px; 
+    transform:rotate(12deg);
+}
+.S2{
+    left:-118px; 
+    transform:rotate(-12deg);
+}
+.S3{
+    top:19px;
+    right:-135px;   
+    transform:rotate(9deg);
+    text-align:center;
+}
+.S4{
+    left:-135px;   
+    transform:rotate(-9deg);
+    text-align:center;
+}
+.S5{
+    right:-155px;
+    transform:rotate(7.2deg)
+}
